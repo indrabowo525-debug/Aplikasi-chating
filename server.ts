@@ -363,6 +363,16 @@ app.get('/api/health', (req, res) => {
   });
 });
 
+app.get('/api/config', (req, res) => {
+  const devUrl = 'https://ais-dev-jwb32u26qakk32j3gvoatg-514591033728.asia-east1.run.app';
+  const sharedUrl = 'https://ais-pre-jwb32u26qakk32j3gvoatg-514591033728.asia-east1.run.app';
+  res.json({
+    devUrl,
+    sharedUrl,
+    appUrl: sharedUrl,
+  });
+});
+
 // Vite Middleware for Development / Static Serve for Production
 const PORT = process.env.PORT || 3000;
 
