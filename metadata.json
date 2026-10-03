@@ -1,0 +1,6 @@
+{
+  "name": "AegisCrypt - Chat Pribadi Terenkripsi & Pesan Otomatis Terhapus",
+  "description": "Aplikasi obrolan pribadi aman dengan enkripsi ujung-ke-ujung (E2EE AES-256-GCM), pesan otomatis terhapus (self-destructing), burn-after-reading, mode kamuflase kalkulator, dan verifikasi sidik kriptografi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
